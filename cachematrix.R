@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+# a square matrix is defined in order the inversion of this matrix to be find
 
-## Write a short comment describing this function
+# in this function we define the matrix that we want to inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   a <- NULL
@@ -21,10 +20,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## this function inverts the matrix that have been defined above.
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
   a <- x$getsolve()
   if(!is.null(a)) {
     message("getting cached data")
